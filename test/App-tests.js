@@ -26,6 +26,15 @@ describe('Status and content', function(){
             })
         })
     })
+
+    describe('Contact Page', function(){
+        it('status', function(){
+            request('http://localhost:8080/about', function(err, res, bost){
+                expect(res.statusCode).to.equal(200);
+                done();
+            })
+        })
+    })
 });
 
 /*
