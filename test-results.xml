@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.017" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-02-06T11:48:29" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Status and content" timestamp="2018-02-06T11:48:29" tests="0" file="C:\Users\corey\Documents\VSProjects\NodejsTesting\test\App-tests.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Main Page" timestamp="2018-02-06T11:48:29" tests="2" file="C:\Users\corey\Documents\VSProjects\NodejsTesting\test\App-tests.js" failures="0" time="0.017">
+    <testcase name="Status and content Main Page status" time="0.015" classname="status">
+    </testcase>
+    <testcase name="Status and content Main Page content" time="0.002" classname="content">
+    </testcase>
+  </testsuite>
+  <testsuite name="About Page" timestamp="2018-02-06T11:48:29" tests="1" file="C:\Users\corey\Documents\VSProjects\NodejsTesting\test\App-tests.js" failures="0" time="0">
+    <testcase name="Status and content About Page status" time="0" classname="status">
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact Page" timestamp="2018-02-06T11:48:29" tests="2" file="C:\Users\corey\Documents\VSProjects\NodejsTesting\test\App-tests.js" failures="0" time="0">
+    <testcase name="Status and content Contact Page status" time="0" classname="status">
+    </testcase>
+    <testcase name="Status and content Contact Page content" time="0" classname="content">
+    </testcase>
+  </testsuite>
+</testsuites>
