@@ -19,7 +19,7 @@ describe('Status and content', function(){
     });
 
     describe('About Page', function(){
-        it('status', function(){
+        it('status', function(done){
             request('http://localhost:8080/about', function(err, res, bost){
                 expect(res.statusCode).to.equal(404);
                 done();
@@ -28,14 +28,14 @@ describe('Status and content', function(){
     });
 
     describe('Contact Page', function(){
-        it('status', function(){
+        it('status', function(done){
             request('http://localhost:8080/contactUs', function(err, res, body){
                 expect(res.statusCode).to.equal(200);
                 done();
             });
         });
 
-        it('content', function() {
+        it('content', function(done) {
            request('http://localhost:8080/contactUs', function(err, res, body){
                expect(res.statusCode).to.equal(200);
                done();
